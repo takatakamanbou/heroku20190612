@@ -22,7 +22,8 @@ def janken():
 
 @app.route('/user/')
 def user():
-    return os.environ['USER']
+    #return os.environ['USER']
+    return os.environ['HOME']
 
 
 if __name__ == '__main__':
